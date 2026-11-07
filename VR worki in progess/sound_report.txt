@@ -1,0 +1,46 @@
+SOUND REPORT
+
+FILLED:
+  Training Manager/FX_ScareSequence  >  ScareSequence.Lights Out Sound = freesound_community-sucked-into-classroom-103774
+  Training Manager/Ambient_Soundscape  >  AmbientSoundscape.Vent Hum Loop = dragon-studio-ceiling-fan-ambience-584737
+  Training Manager/Ambient_Soundscape  >  AmbientSoundscape.Element 0 = irhouen-metal-creaks-189729
+  Training Manager/Ambient_Soundscape  >  AmbientSoundscape.Heartbeat Loop = dragon-studio-heartbeat-sound-372448 1
+  Tasks/Task_02_Unlock_Door  >  DoorBanger.Element 0 = tanweraman-door-bang-echo-505135
+  Tasks/Task_02_Unlock_Door/Door_Vert_01/Door_Vert_01/Intercom_01/Keypad_PokePanel (Intercom)  >  PokeKeypad.Click Sound = floraphonic-triangle-beep-short-1-185304 (1)
+  Tasks/Task_02_Unlock_Door/Door_Vert_01/Door_Vert_01/Intercom_01/Keypad_PokePanel (Intercom)  >  PokeKeypad.Granted Sound = floraphonic-triangle-beep-short-5-185308
+  Tasks/Task_02_Unlock_Door/Door_Vert_01/Door_Vert_01/Intercom_01/Keypad_PokePanel (Intercom)  >  PokeKeypad.Denied Sound = u_ayf470ljcu-incorrect-buzzer-sound-147336
+  Tasks/Task_07_Treat_Patient/Patient_Dummy  >  DummyTwitch.Twitch Sound = floraphonic-bone-break-3-218510 1
+  Tasks/Task_02_Unlock_Door/Door_Vert_01  >  AudioSource.clip = Pneumatic-door
+  Environment/Prefab_Room_Large_02/Door_Vert_01  >  AudioSource.clip = Pneumatic-door
+  Environment/Prefab_Room_Large_02/Wall_Console_01_Half/Sound  >  AudioSource.clip = Machin_Loop
+  Environment/Level_Geometry/Wall_Console_01_Large/Sound  >  AudioSource.clip = Machin_Loop
+  Environment/Prefab_Room_Large_02/Wall_Console_01_Large/Sound  >  AudioSource.clip = Machin_Loop
+
+EMPTY (silent until you add a clip):
+  Training Manager/FX_Environment/FX_Steam_Pipes  >  SteamVent.Hiss Clips (list is empty)
+  Tasks/Task_06_PickUp_Spray/Grabbable_HealingSpray  >  GrabSound.Pickup Sound
+  Tasks/Task_06_PickUp_Spray/Grabbable_HealingSpray  >  GrabSound.Drop Sound
+  Tasks/Task_03_Grab_GreenHerb/Grabbable_GreenHerb  >  GrabSound.Pickup Sound
+  Tasks/Task_03_Grab_GreenHerb/Grabbable_GreenHerb  >  GrabSound.Drop Sound
+  Training Manager/FX_Ending  >  EndingSequence.Door Forced Sound
+  Training Manager/FX_Ending  >  EndingSequence.Growl Sound
+  Training Manager/FX_Ending  >  EndingSequence.End Stinger
+  Environment/Level_Geometry/Wall_Simple_05_Long/Point light_Down  >  LightFlicker.Buzz Loop
+  Environment/Level_Geometry/Wall_Simple_05_Long/Point light_Down  >  LightFlicker.Crackle Clips (list is empty)
+  Tasks/Task_05_Combine_Herbs/MixStation  >  HerbCombiner.Combine Sound
+  UI/Onboarding_Prompt_Panel (Poke)  >  TrainingPromptUI.Step Chime
+  Tasks/Task_07_Treat_Patient/Patient_Monitor_Audio  >  PatientMonitor.Beep
+  Training Manager/FX_Environment/FX_EmergencyBeacon  >  EmergencyLight.Alarm Loop
+  XR Setup/[BuildingBlock] Camera Rig  >  Footsteps.Step Clips (list is empty)
+  Training Manager/Sound_Hooks  >  TrainingSoundHooks.Intro Announcement
+  Training Manager/Sound_Hooks  >  TrainingSoundHooks.Step Start Sound
+  Training Manager/Sound_Hooks  >  TrainingSoundHooks.Step Complete Sound
+  Training Manager/Sound_Hooks  >  TrainingSoundHooks.Mix Sound
+  Training Manager/Sound_Hooks  >  TrainingSoundHooks.Patient Stabilized Sound
+  Tasks/Task_04_Grab_RedHerb/Grabbable_RedHerb  >  GrabSound.Pickup Sound
+  Tasks/Task_04_Grab_RedHerb/Grabbable_RedHerb  >  GrabSound.Drop Sound
+  Training Manager/FX_Environment/FX_Steam_MedBay  >  SteamVent.Hiss Clips (list is empty)
+
+PROBLEM - has clips but no AudioSource to play them:
+  Tasks/Task_05_Combine_Herbs/MixStation > HerbCombiner
+  UI/Onboarding_Prompt_Panel (Poke) > TrainingPromptUI

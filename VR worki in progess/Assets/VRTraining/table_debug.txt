@@ -1,0 +1,27 @@
+TABLE bounds center (2.28, 0.87, 2.34) size (2.87, 1.35, 3.00)
+  R Wall_Table_01 c=(2.28, 0.87, 2.34) s=(2.87, 1.35, 3.00)
+  ray (-0.50,-0.50) 0.84,0.84: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.50,-0.25) 0.84,1.59: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.50,0.00) 0.84,2.34: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.50,0.25) 0.84,3.09: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.50,0.50) 0.84,3.84: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.25,-0.50) 1.56,0.84: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.25,-0.25) 1.56,1.59: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.25,0.00) 1.56,2.34: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.25,0.25) 1.56,3.09: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (-0.25,0.50) 1.56,3.84: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (0.00,-0.50) 2.28,0.84: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (0.00,-0.25) 2.28,1.59: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (0.00,0.00) 2.28,2.34: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (0.00,0.25) 2.28,3.09: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (0.00,0.50) 2.28,3.84: Floor_Squared_01_6x6@0.19 | Floor@0.00
+  ray (0.25,-0.50) 2.99,0.84: Collider_01@1.08 | Floor@0.00
+  ray (0.25,-0.25) 2.99,1.59: Collider_01@1.08 | Floor@0.00
+  ray (0.25,0.00) 2.99,2.34: Collider_01@1.08 | Floor@0.00
+  ray (0.25,0.25) 2.99,3.09: Collider_01@1.08 | Floor@0.00
+  ray (0.25,0.50) 2.99,3.84: Collider_01@1.08 | Floor@0.00
+  ray (0.50,-0.50) 3.71,0.84: Collider_01@1.37 | Floor@0.00
+  ray (0.50,-0.25) 3.71,1.59: Collider_01@1.37 | Floor@0.00
+  ray (0.50,0.00) 3.71,2.34: Collider_01@1.37 | Floor@0.00
+  ray (0.50,0.25) 3.71,3.09: Collider_01@1.37 | Floor@0.00
+  ray (0.50,0.50) 3.71,3.84: Collider_01@1.37 | Floor@0.00

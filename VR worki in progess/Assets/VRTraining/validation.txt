@@ -1,0 +1,11 @@
+[VR Training] VALIDATION
+Manager: 7 tasks, prompt UI: OK
+  1. Task_01_Onboarding_PokeToStart  [OK]  completed by: Events_Poke_TerminalScreen.onSelect
+  2. Task_02_Unlock_Door  [OK]  completed by: Keypad_PokePanel (Intercom).onUnlocked
+  3. Task_03_Grab_GreenHerb  [OK]  completed by: Events_Grab_GreenHerb.onSelect
+  4. Task_04_Grab_RedHerb  [OK]  completed by: Events_Grab_RedHerb.onSelect
+  5. Task_05_Combine_Herbs  [OK]  completed by: MixStation_TriggerZone.onAllRequiredInside
+  6. Task_06_PickUp_Spray  [OK]  completed by: Events_Grab_HealingSpray.onSelect
+  7. Task_07_Treat_Patient  [OK]  completed by: Treatment_TriggerZone.onStayTimeReached
+Rule: TrainingTask.CompleteTask() is ignored unless that task is the active one, so steps can only finish in order.
+RESULT: all steps wired in order.

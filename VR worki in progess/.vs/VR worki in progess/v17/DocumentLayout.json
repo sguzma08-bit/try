@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\VR Project\\VR worki in progess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{75E74545-AE8B-ED2B-D922-B63DBD7BC076}|Assembly-CSharp.csproj|e:\\vr project\\vr worki in progess\\assets\\vrtraining\\scripts\\trainingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75E74545-AE8B-ED2B-D922-B63DBD7BC076}|Assembly-CSharp.csproj|solutionrelative:assets\\vrtraining\\scripts\\trainingmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TrainingManager.cs",
+              "DocumentMoniker": "E:\\VR Project\\VR worki in progess\\Assets\\VRTraining\\Scripts\\TrainingManager.cs",
+              "RelativeDocumentMoniker": "Assets\\VRTraining\\Scripts\\TrainingManager.cs",
+              "ToolTip": "E:\\VR Project\\VR worki in progess\\Assets\\VRTraining\\Scripts\\TrainingManager.cs",
+              "RelativeToolTip": "Assets\\VRTraining\\Scripts\\TrainingManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T23:56:03.653Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
